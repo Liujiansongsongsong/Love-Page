@@ -186,7 +186,7 @@
     <script>
         //进入页面时请求
         $.ajax({
-            url: 'https://abc.mcloc.cn/abc/love/php/love.php',
+            url: 'https://abc.mcloc.cn/abc/love/php/love.php?type=json',
             type: "GET",
             async: true,
             data: "type=json",
@@ -203,7 +203,7 @@
         //点击时请求
         $(".love").click(function () {
             $.ajax({
-                url: 'https://abc.mcloc.cn/abc/love/php/love.php',
+                url: 'https://abc.mcloc.cn/abc/love/php/love.php?type=json',
                 type: "GET",
                 async: true,
                 data: "type=json",
@@ -221,7 +221,7 @@
 
         $("#updatalove").click(function () {
             $.ajax({
-                url: 'https://abc.mcloc.cn/abc/love/php/love.php',
+                url: 'https://abc.mcloc.cn/abc/love/php/love.php?type=json',
                 type: "GET",
                 async: true,
                 data: "type=json",
